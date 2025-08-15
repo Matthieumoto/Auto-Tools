@@ -1,0 +1,24 @@
+# Démarrer en local (XAMPP)
+1. Installe XAMPP (Apache + MySQL). Lance **Apache** et **MySQL**.
+2. Copie le dossier `autotools-php` dans `C:\xampp\htdocs` (Windows) ou `/Applications/XAMPP/htdocs` (macOS).
+3. Va sur `http://localhost/phpmyadmin` → crée la base **autotools** puis importe `sql/schema.sql`.
+4. Copie `config.sample.php` en `config.php` (garde `root` / mot de passe vide si XAMPP par défaut).
+5. Ouvre `http://localhost/autotools-php/public`.
+
+# Démarrer sans XAMPP (PHP serveur intégré)
+1. Installe PHP et MySQL/MariaDB.
+2. Crée la base et importe `sql/schema.sql`.
+3. Dans le dossier projet, lance: `php -S localhost:8000 -t public`
+4. Ouvre `http://localhost:8000`
+
+# Extensions VS Code utiles
+- **PHP Intelephense** (intellisense)
+- **PHP Debug** (xdebug) – optionnel
+- **SQLTools** + **SQLTools MySQL/MariaDB** (requêtes + explorer DB)
+- **PHP Server** (démarrage rapide `php -S`) – pratique sur Windows/macOS
+
+# Étapes suivantes
+- Ajouter un formulaire d'**ajout de véhicule** (admin)
+- Ajout d'un **login simple** (session PHP) puis NextAuth quand tu migreras vers Next.js
+- Import d'une vraie **base modèles** et chargement par liste déroulante
+- Page **/events** (rasso) – une table `events` viendra ensuite
