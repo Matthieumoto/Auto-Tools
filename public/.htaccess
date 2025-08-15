@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Laisse passer fichiers et dossiers existants
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Route jolie pour fiche voiture
+  RewriteRule ^cars/([a-z0-9-]+)/?$ car.php?slug=$1 [QSA,L]
+</IfModule>

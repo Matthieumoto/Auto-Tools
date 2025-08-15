@@ -39,7 +39,7 @@ if ($q !== '') {
 <main class="container grid" style="margin-top:16px;">
   <section class="card">
     <form method="get" class="grid" style="grid-template-columns:1fr auto; gap:10px;">
-      <input class="input" type="text" name="q" value="<?= e($q) ?>" placeholder="Recherche (ex: 208, RS5, Audi, Peugeot)" />
+      <input class="input" type="text" name="q" value="<?= e($q) ?>" placeholder="Recherche (ex: Marques, Modèles ...)" />
       <button class="btn" type="submit">Rechercher</button>
     </form>
   </section>
