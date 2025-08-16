@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__.'/../../inc/auth.php';
+auth_require_admin();
 require_once __DIR__.'/../../inc/db.php';
 require_once __DIR__.'/../../inc/helpers.php';
 

@@ -1,0 +1,35 @@
+TO: schpountz@hotmail.com
+SUBJECT: Vérifie ton email • AutoTools
+HTML:
+<p>Salut Karel,</p>
+           <p>Confirme ton adresse email en cliquant ici :</p>
+           <p><a href="http://localhost/auto-tools/public/verify_email.php?token=81cd9d918fe7b87de911346cbbcdf4092fdf268cef78046e807f4c54f3c4bf2d">Vérifier mon email</a></p>
+           <p>Si tu n’es pas à l’origine de cette inscription, ignore ce message.</p>
+
+TEXT:
+
+----
+TO: schpountz@hotmail.com
+SUBJECT: Vérifie ton email • AutoTools
+HTML:
+<p>Salut Karel,</p><p>Pour vérifier ton email, clique ici :</p><p><a href="http://localhost/auto-tools/public/verify_email.php?token=1cc421144c1d36707a864df02bd66d3febd17ca03756c2d5670c9a6c14d0c71e">Vérifier mon email</a></p>
+
+TEXT:
+
+----
+TO: matthieu.kremer9@gmail.com
+SUBJECT: Vérifie ton email • AutoTools
+HTML:
+<p>Salut KREMER,</p><p>Pour vérifier ton email, clique ici :</p><p><a href="http://localhost/auto-tools/public/verify_email.php?token=45baeb7e2b46de9b1aeec96d37176dd122feb6cd96f081a8c4ac4b6930b13fa7">Vérifier mon email</a></p>
+
+TEXT:
+
+----
+TO: schpountz@hotmail.com
+SUBJECT: Ta photo a été acceptée ✅
+HTML:
+<p>Merci ! Ta photo pour <b>Mazda MX-5 2020</b> a été mise en ligne.</p>
+
+TEXT:
+
+----

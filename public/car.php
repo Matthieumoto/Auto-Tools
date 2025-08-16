@@ -122,6 +122,10 @@ if ($hasSlug && !empty($car['slug'])) {
       <div class="value"><?= isset($car['wltp_l100']) ? e(number_format((float)$car['wltp_l100'],1,',',' ')).' L/100' : '—' ?></div>
     </div>
   </section>
+    <div class="mt-2">
+    <a class="btn" href="<?= e(BASE_URL) ?>/photo_suggest.php?car_id=<?= (int)$car['id'] ?>">Proposer une photo</a>
+    <a class="btn" href="<?= e(BASE_URL) ?>/report_mismatch.php?car_id=<?= (int)$car['id'] ?>" style="background:#7a2b41;">Ce n’est pas la bonne voiture ?</a>
+  </div>
 </main>
 </body>
 </html>
